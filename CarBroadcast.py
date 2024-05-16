@@ -8,7 +8,7 @@ clientSocket.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
 
 while True:
     cars = {
-        "id": 28,
+        "id": 27,
         "brand": "Ferrari",
         "model": "Monza SP1",
         "horsepower": 810,
