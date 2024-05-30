@@ -6,6 +6,7 @@ serverPort = 10100
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
 
+
 while True:
     cars = {
         "id": 28,
